@@ -13,7 +13,7 @@
   11 - Transformar renderUserList em arrow function com retorno imediato √
 */
 
-const getStatusLabel = status => (
+export const getStatusLabel = status => (
   status ? 'Ativado' : 'Desativado'
 );
 
